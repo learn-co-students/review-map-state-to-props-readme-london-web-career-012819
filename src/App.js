@@ -33,9 +33,9 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
+const msp = (state) => {
   debugger;
   return { items: state.items }
 }
 
-export default connect(mapStateToProps)(App);
+export default connect(msp)(App);
